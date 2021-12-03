@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Scada', sans-serif;
+}
+
+.navbar{
+    min-height: 80px;
+}
+.active{
+    color: #007bff !important;
+    border-bottom: 3px solid #d5e91e;
+}
+
+.sec1{
+    min-height: 500px;
+    
+    margin-top: 90px;
+}
+.sec2{
+    min-height: 480px;
+    
+}
+
+
+footer{
+    min-height: 80px;
+    
+    padding: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .h2-sec1, .p-sec1 {
+        text-align: center;
+    }
+    .a-sec1{
+        margin-left: 18%;
+    }
+    .img-sec2{
+        margin-top: 30px;
+    }
+    .h2-sec2, .p-sec2{
+        text-align: center;
+    }
+}
